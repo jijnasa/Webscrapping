@@ -31,7 +31,6 @@ for row in row_list[3:]:
             flag = True
     else:
         continue
-#date2 = parser.parse("26 December23:11:57\r")
 with open('result.csv', mode='w') as file:
     for x in d:
         date1 = x.split('[',1)[0]
